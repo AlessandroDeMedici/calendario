@@ -1,0 +1,23 @@
+guida veloce:
+	
+	1. vai su agenda didattica (https://agendadidattica.unipi.it)
+	
+	2. seleziona Insegnamenti: inserisci solo gli insegnamenti che vuoi nel calendario
+
+	2. seleziona Calendario -> scorri fino alla settimana che vuoi stampare
+
+	3. In altro sinistra dovresti notare una piccola icona di un calendario scritto vicino "ics",
+		quindi scarica il file ics
+
+	4. Inserisci nella directory dello script il file calendar.ics
+		IMPORTANTE: attenzione ai duplicati, se siete su windows saranno "calendario (i).ics",
+		affinche funzioni vanno rinominati in calendario.ics
+
+	5. lancia lo script con il comando python3
+		python3 main.py
+
+	6. Se tutto e' andato a buon fine otterrai un messaggio informativo e
+	nella directory saranno presenti i file calendario.pdf e calendario.png
+
+NOTE: 	il file ics deve avere il nome "calendario.ics", inoltre se i corsi si sovrappongono verranno
+	brutalmente stampati uno sopra l'altro nel calendario
